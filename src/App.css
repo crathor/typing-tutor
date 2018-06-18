@@ -1,0 +1,51 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  background: cyan;
+}
+.App header{
+  width: 100%;
+  color: #eee;
+  height: 90px;
+  background: #1e1e1e;
+  font-size: 2em;
+}
+.App header div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto; 
+}
+.App header h3{
+  margin: auto
+}
+.tutor{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.active{
+  background: rgba(0,0,0,0.5);
+}
+.App input{
+  position: fixed;
+  bottom: 150px;
+  left: 10%;
+  width: 80%;
+  font-size: 2em;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  border-bottom: 3px #000 solid;
+  outline: none;
+}
+
